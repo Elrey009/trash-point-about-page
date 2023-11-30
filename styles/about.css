@@ -416,7 +416,7 @@ a {
 }
 
 .footer h4 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   justify-content: center;
   align-items: center;
@@ -491,7 +491,6 @@ a {
 
 .get-in-touch ul li {
   font-size: 20px;
-  padding-bottom: 3rem;
   list-style: none;
 }
 
@@ -509,17 +508,19 @@ a .fa-brands {
 
 a .fa-brands:hover {
   color: var(--text-color);
-  font-size: 30px;
 }
 
 /* attribution */
+
 .attribution {
   font-size: 18px;
   text-align: center;
   margin: 0 auto;
   color: var(--White);
   grid-column: 4/9;
-  margin-top: 4rem;
+  /* margin-top: 2rem; */
+  position: relative;
+  top: 4rem;
 }
 
 .attribution a {
